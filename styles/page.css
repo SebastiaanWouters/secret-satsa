@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100&display=swap');
+
+:root {
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --callout-rgb: 238, 240, 241;
+    --active-rgb: 255,255,255;
+    
+}
+
+.hodlerimage {
+  margin-top: 100px;
+}
+
+body {
+  background: #111111;
+}
+.outerContainer {
+  display: flex;
+  background: #111;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px 20px;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 0px 0px;
+  gap: 28px;
+
+  width: 90%;
+  height: 75%;
+}
+
+.mainContainerTyping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px 0px;
+  gap: 25px;
+
+  width: 90%;
+  height: 75%;
+}
+
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 100%;
+  height: 60%;
+}
+
+.boldText {
+
+  width: 90%;
+  height: auto;
+
+  /* Title 2 - 28 */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 39px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* Light/Foreground */
+  color: #FFFFFF;
+}
+
+.boldText h1 {
+  font-size: 46px;
+}
+
+.textarea {
+  width: 100%
+}
+
+
+.descriptionText {
+  width: 75%;
+  height: auto;
+
+  /* Body 3 - 18 */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+  /* Light/Neutral 7 (77, 176) */
+  color: #777777;
+}
+
+.descriptionText p {
+  font-size: 20px;
+}
+
+.textInput {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 100%;
+  min-height: 25vh;
+
+}
+.paginationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: auto;
+  height: auto;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+
+  /* Light/Neutral 4 (DE, 92) */
+  background: #DEDEDE;
+  border-radius: 100px;
+}
+
+.dotActive {
+  width: 12px;
+  height: 12px;
+
+  background: #F7931A;
+  border-radius: 100px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 10px;
+
+  width: 90%;
+  height: auto;
+
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+
+  /* Light/Orange */
+  background: #F7931A;
+  border-radius: 5px;
+}
+
+.button:active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 10px;
+
+  width: 90%;
+  height: auto;
+
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+
+  /* Light/Orange */
+  background: #face3e;
+  border-radius: 5px;
+}
+
+.buttonText {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+
+  /* Light/Background */
+  color: #FFFFFF;
+}
